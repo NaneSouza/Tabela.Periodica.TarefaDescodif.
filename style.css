@@ -1,0 +1,218 @@
+/*Estilização*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #631772;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  color:white;
+  padding: 1rem;
+  font-size: 2rem;
+  
+}
+
+main {
+  width: auto;
+  height: auto;
+}
+
+.title {
+  width: 90vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table1 {
+  font-family: arial, sans-serif;
+  width: auto;
+  height: auto;
+  padding: 2rem;
+  margin: 1rem;
+  align-items: center;
+}
+
+td,
+tr {
+  width: 3vw;
+  height: 3vh;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 0.3rem;
+  border-radius: 10%;
+}
+
+.vazia {
+  border: none;
+}
+
+.sigla {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.elemento {
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+sub {
+  width: 4vw;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: right;
+}
+
+.legall {
+  background-color: rgb(240, 245, 243);
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legendas {
+  width: 90vw;
+  height: auto;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #631772;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer h2 {
+  color:white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+footer h3 {
+  color:white;
+  font-size: 1rem;
+}
+
+/* estilos das cores */
+
+.metAlc {
+  color: #2a7f8e;
+  font-weight: bold;
+  background-color: #d8f8ff;
+}
+
+.metAlc:hover {
+  transform: scale(1.5);
+}
+
+.metAlcTerr {
+  color: #d60024;
+  font-weight: bold;
+  background-color: #f1d0d0;
+}
+
+.metAlcTerr:hover {
+  transform: scale(1.5);
+}
+
+.mettran {
+  color: #6232ec;
+  font-weight: bold;
+  background-color: #f3e8fd;
+}
+
+.mettran:hover {
+  transform: scale(1.5);
+}
+
+.metpostran {
+  color: #277a58;
+  font-weight: bold;
+  background-color: #d6f9e8;
+}
+
+.metpostran:hover {
+  transform: scale(1.5);
+}
+
+.semimet {
+  color: #bf7300;
+  font-weight: bold;
+  background-color: #fef7e0;
+}
+
+.semimet:hover {
+  transform: scale(1.5);
+}
+
+.amereat {
+  color: #0078f2;
+  font-weight: bold;
+  background-color: #e2eeff;
+}
+
+.amereat:hover {
+  transform: scale(1.5);
+}
+
+.gasnob {
+  color: #cd1d74;
+  font-weight: bold;
+  background-color: #ffe7eb;
+}
+
+.gasnob:hover {
+  transform: scale(1.5);
+}
+
+.lantan {
+  color: #335f7c;
+  font-weight: bold;
+  background-color: #dff3ff;
+}
+
+.lantan:hover {
+  transform: scale(1.5);
+}
+
+.actin {
+  color: #ca3d0d;
+  font-weight: bold;
+  background-color: #ffe6d4;
+}
+
+.actin:hover {
+  transform: scale(1.5);
+}
+
+.propdesc {
+  color: #484057;
+  font-weight: bold;
+  background-color: #e7e7ea;
+}
+
+.propdesc:hover {
+  transform: scale(1.5);
+}
